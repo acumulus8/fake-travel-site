@@ -4,6 +4,10 @@
 
     &__image {
         display: block;
+        
+        @mixin atMedium {
+            height: 700px;
+        }
     }
 
     &__text-content {
