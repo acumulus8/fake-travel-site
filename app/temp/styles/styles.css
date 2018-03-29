@@ -1127,6 +1127,7 @@ a {
 
 .site-header--is-expanded {
         background-color: rgba(47,85,114, .55);
+        height: 70vh
     }
 
 @media (min-width: 800px) {
@@ -1323,7 +1324,9 @@ a {
 .primary-nav li {
         list-style: none;
         padding-right: 7px;
-        display: inline-block;
+        display: block;
+        margin: 0 auto .7rem auto;
+        max-width: 45%;
     }
 
 @media (min-width: 800px) {
@@ -1353,7 +1356,7 @@ a {
         text-shadow: 1px 1px black;
         font-weight: 300;
         padding: 5px 8px;
-        font-size: .8rem;
+        font-size: 1.2rem;
         background-color: rgba(47,85,114, .5);
     }
 

@@ -23,7 +23,9 @@
     li {
         list-style: none;
         padding-right: 7px;
-        display: inline-block;
+        display: block;
+        margin: 0 auto .7rem auto;
+        max-width: 45%;
 
         @mixin atMedium {
             padding-right: 20px;
@@ -47,7 +49,7 @@
         text-shadow: 1px 1px black;
         font-weight: 300;
         padding: 5px 8px;
-        font-size: .8rem;
+        font-size: 1.2rem;
         background-color: rgba($mainBlue, .5);
 
         @mixin atMedium {
