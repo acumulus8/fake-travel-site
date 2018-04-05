@@ -46,7 +46,7 @@ gulp.task('optimizeImages', ['deleteDistFolder'], function() {
 
 gulp.task('useminTrigger', ['deleteDistFolder',], function() {
     gulp.start('usemin');
-})
+});
 
 gulp.task('usemin', [ 'styles', 'scripts'], function() {
     return gulp.src('./app/index.html')

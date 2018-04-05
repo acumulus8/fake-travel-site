@@ -472,6 +472,7 @@ a {
 .large-hero {
     border-bottom: 10px solid #2f5572;
     position: relative;
+    height: 99vh;
 }
 
 .large-hero__image {
@@ -481,7 +482,7 @@ a {
 @media (min-width: 800px) {
 
 .large-hero__image {
-            height: 700px
+            height: 100vh
     }
     }
 
